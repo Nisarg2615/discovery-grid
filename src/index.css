@@ -8,33 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 10% 98%;
+    --foreground: 240 10% 8%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 240 10% 100%;
+    --card-foreground: 240 10% 8%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 10% 100%;
+    --popover-foreground: 240 10% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 242 80% 50%;
+    --primary-foreground: 240 10% 98%;
+    --primary-glow: 250 90% 65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 15% 94%;
+    --secondary-foreground: 240 10% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 15% 94%;
+    --muted-foreground: 240 5% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 250 80% 92%;
+    --accent-foreground: 242 80% 50%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 240 10% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 240 20% 90%;
+    --input: 240 20% 95%;
+    --ring: 242 80% 50%;
+
+    /* Innovation Portal Colors */
+    --innovation-blue: 242 80% 50%;
+    --innovation-purple: 270 80% 60%;
+    --innovation-gradient: linear-gradient(135deg, hsl(var(--innovation-blue)), hsl(var(--innovation-purple)));
+    --hero-gradient: linear-gradient(135deg, hsl(242 80% 50%), hsl(270 80% 60%));
+    --card-gradient: linear-gradient(145deg, hsl(240 10% 100%), hsl(240 15% 98%));
+    --glow-shadow: 0 8px 32px -8px hsl(var(--innovation-blue) / 0.3);
+    --elegant-shadow: 0 4px 20px -4px hsl(240 10% 20% / 0.08);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
